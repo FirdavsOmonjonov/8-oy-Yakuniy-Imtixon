@@ -92,7 +92,7 @@ class LikeAPIView(APIView):
                     like_or_dislike=value
                 )
                 
-            return Response({'success': "Muvofaqiyatli!!!"})
+            return Response({'success': "Muvoffaqiyatli"})
 
 
 class SendMassageAPIView(APIView):
@@ -121,4 +121,4 @@ class SendMassageAPIView(APIView):
             )
             send_message.save()
 
-            return Response({'success': "Xabar yuborildi!!!"})
+            return Response({'success': "Xabar Foydalanuvchilarga yuborildi"})
